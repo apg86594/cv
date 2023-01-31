@@ -1,0 +1,158 @@
+body {
+    margin: 0px;
+}
+
+.first_lev {
+    background-color: aquamarine;
+    padding: 25px;
+    font-family: 'Great Vibes', cursive;
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    border-bottom: 5px double black;
+}
+
+.sec_lev {
+    background-color: peachpuff;
+    padding: 25px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: black;
+    font-size: 18px;
+    text-align: center;
+}
+
+.third_lev {
+    background-color: aquamarine;
+    padding: 25px;
+    font-family: 'Edu TAS Beginner', cursive;
+    color: crimson;
+    font-size: 20px;
+    text-align: center;
+    border-top: 5px double black;
+}
+
+a:link {
+    color: red;
+    text-decoration: none;
+}
+
+a:visited {
+    color:blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color:orange;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.button{
+    display: flexbox;
+    border-radius: 15px;
+    background-color: white;
+    padding: 5px;
+    font-size: 15px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    display: block;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img_settings {
+    position: absolute;
+    column-gap: 15px;
+    margin: auto;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+    /*border: 2px dashed black;
+    border-radius: 5%;*/
+}
+
+.img_one{
+    position: absolute;
+    left: 250px;
+    right: 0px;
+    top: 15px;
+}
+
+.img_two{
+    position: absolute;
+    left: 1000px;
+    right: 0px;
+    top: 50px;
+}
+
+.lang_lev{
+    column-count: 2;
+    float: inline-start;
+    column-gap: 20px;
+    column-rule: 4px dotted crimson;
+    margin: auto;
+    width: 50%;
+    text-align: left;
+}
+
+.work_lev {
+    column-count: 2;
+    float: inline-start;
+    column-gap: 20px;
+    column-rule: 4px dotted crimson;
+    margin: auto;
+    width: 50%;
+    text-align: right;
+    
+    /*text-align: center;*/
+}
+
+.skills_lev {
+    column-count: 2;
+    float: inline-start;
+    column-gap: 40px;
+    column-rule: 4px dotted crimson;
+    margin: auto;
+    width: 50%;
+    text-align: left;
+}
+
+.divisions {
+    display: flex;
+    border: 4px double aquamarine;
+    justify-content: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+.card {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    outline: 2px dashed crimson;
+    font-family: 'Edu TAS Beginner', cursive;
+    padding: 5px;
+    width: 600px;
+    height: 400px;
+    box-shadow: 10px 10px lightblue;
+    background-color: lavender;
+    text-align: center;
+}
+
+.inform {
+    justify-content: center;
+    align-items: center;
+}
+
